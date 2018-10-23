@@ -1,3 +1,3 @@
-## [CV](/cv)
+## [CV](profile/cv)
 
-## [Portfolio](/portfolio)
+## [Portfolio](profile/portfolio)
