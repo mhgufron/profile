@@ -1,3 +1,3 @@
-## [CV](profile/cv)
+## [CV](https://mhgufron.github.io/profile//cv)
 
-## [Portfolio](profile/portfolio)
+## [Portfolio](https://mhgufron.github.io/profile//portfolio)
