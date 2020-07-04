@@ -52,7 +52,7 @@ h2.sub span {
     right: 0;
 }
 
-h2::before, h2::after {
+h2::before {
     content: "";
     display: inline-block;
     width: 100%;
@@ -63,10 +63,6 @@ h2::before, h2::after {
 
 h2::before {
     float: left;
-}
-
-h2::after {
-    float: right;
 }
 
 h3 {
