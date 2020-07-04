@@ -55,10 +55,12 @@ h2::after {
 
 h3 {
     margin: 0;
+    padding: 0 0 0.6em 0;
 }
 
 p {
-    margin-top: 0
+    margin-top: 0;
+    line-height: 1.4em;
 }
 
 #side div h2::before, #side div h2::after {
@@ -234,6 +236,8 @@ a, a:visited, a:hover, a:focus, a:active {
 .content-subtitle {
     color: var(--grey-secondary);
     font-style: italic;
+    padding: 0.6em 0;
+    display: inline-block;
 }
 
 #main .languages {
