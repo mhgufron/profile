@@ -79,23 +79,11 @@ p {
     line-height: 1.4em;
 }
 
-#side div h2::before, #side div h2::after {
-    max-width: 30%;
-}
-
 #main div h2::before, #main div h2::after {
     /* max-width: 40%; */
     position: absolute;
     left: 0;
     /* z-index: 1; */
-}
-
-#side div.languages h2::before, #side div.languages h2::after {
-    max-width: 20%;
-}
-
-#main .width-half h2::before, #main .width-half h2::after {
-    max-width: 30%;
 }
 
 ul {
