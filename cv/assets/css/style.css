@@ -54,7 +54,7 @@ h2.sub span {
 
 
 #side h2.sub span {
-    color: var(--grey-divider)
+    background: var(--grey-divider)
 }
 
 h2::before {
