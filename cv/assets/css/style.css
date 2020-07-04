@@ -36,6 +36,22 @@ h2 {
     text-align: center;
 }
 
+h2.sub {
+    position: relative;
+    height: 1.4em;
+}
+
+h2.sub span {
+    position: absolute;
+    z-index: 2;
+    background: white;
+    width: fit-content;
+    margin: auto;
+    padding: 0 .8em;
+    left: 0;
+    right: 0;
+}
+
 h2::before, h2::after {
     content: "";
     display: inline-block;
@@ -68,7 +84,10 @@ p {
 }
 
 #main div h2::before, #main div h2::after {
-    max-width: 40%;
+    /* max-width: 40%; */
+    position: absolute;
+    left: 0;
+    /* z-index: 1; */
 }
 
 #side div.languages h2::before, #side div.languages h2::after {
@@ -208,6 +227,7 @@ a, a:visited, a:hover, a:focus, a:active {
     text-align: center;
     margin-bottom: 2.5em;
     color: #7E7E7E;
+    z-index: 2;
 }
 
 .title h1 {
