@@ -52,6 +52,11 @@ h2.sub span {
     right: 0;
 }
 
+
+#side h2.sub span {
+    color: var(--grey-divider)
+}
+
 h2::before {
     content: "";
     display: inline-block;
